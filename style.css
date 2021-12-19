@@ -9,13 +9,14 @@ body {
   font-family: Poppins;
 }
 .form {
-  height: 400px;
+  height: 450px;
   width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border-radius: 4px;
+  background-color: #fffdf4;
   box-shadow: 0 0 15px 1px rgba(165, 165, 165, 0.26);
 }
 .register {
@@ -62,9 +63,13 @@ body {
   background-color: #ffe55271;
   width: 300px;
   height: 6px;
-  margin-top: -60px;
+  margin-top: -70px;
 }
 .form > h1 {
   color: rgb(73, 73, 73);
   z-index: 1;
+}
+::placeholder {
+  position: relative;
+  left: 10px;
 }
