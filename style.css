@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+* {
+  font-family: Poppins;
+}
+.form {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 1px rgba(165, 165, 165, 0.26);
+}
+.register {
+  width: 252px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #ffe652;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-shadow: 5px 5px 0px 0px #a58c00;
+  color: #a58c00;
+}
+
+.user {
+  height: 40px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(185, 185, 185, 0.274);
+}
+.password_input {
+  height: 40px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(185, 185, 185, 0.274);
+}
+.confirm_password_input {
+  height: 40px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(185, 185, 185, 0.274);
+}
+.color {
+  background-color: #ffe55271;
+  width: 300px;
+  height: 6px;
+  margin-top: -60px;
+}
+.form > h1 {
+  color: rgb(73, 73, 73);
+  z-index: 1;
+}
