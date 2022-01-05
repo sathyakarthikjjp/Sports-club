@@ -1,0 +1,115 @@
+sports club project
+
+frontend 
+backend
+user regestration page
+	first name
+	last name 
+	email
+	phone nuber
+	address
+	password
+action points:
+user has to enter the details to register and press the save button if
+in case of username exist allow user to change the username
+username and email id are unique
+
+login page
+	username
+	password
+	forget password
+
+action point login page 
+verify the username and password with the data if user exist login
+if not  user name and password does not match 
+forget password functionality should allow to retrive the password
+
+homepage
+	register userprofiel link
+	user-profile(after signup)
+	login page link
+	forget passwoed
+	display tournments link(Tournments & events)
+	gallery
+	about us
+	contact us
+
+Tournment and event page
+	tournement name
+	tournement dates
+	tournemnt time
+	tournemnt venue
+	coach allocated
+action points : display currently running tournemnts,upcoming tournaments and its details
+
+
+user-profile page
+	user info-first name 
+	last name
+	address
+	phone number
+	email id
+	registerd tournemnts
+	allocated coach
+	practice time
+	selcted game
+	*allocated batch for practice
+action points-
+tournements which he had registerd and won or lost 
+if won which place, once register over user should not be abele to change username and email id
+coach details -coach name
+		coach number
+		*if needed coach acivements
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+admin pages
+
+create tournement page
+	add tournent
+	tournmwnt name
+	tournment type(sport name)
+	tournemnt date
+	tournmnet start time
+	tournment end time
+	tournemnt venue
+	tournment prize
+	required number of players
+	players name
+	coach allocated for the tournement
+ action points-allow admin to add new tournemnts,coach,players
+  same coach and players should not be any other tournemnets 
+  dont exceed the max number of players
+
+
+pracice page
+	**need to disscus shashank
+	**what are the details requried for the practice of the club
+	**coach allocated time in batches ,how to allocate the coaches
+	pracyice date
+	practice time
+	coach allocated at tht time 
+	
+page plan/flowchart
+	
+
+Sports
+	Football
+	volleyball
+	cricket
+	basketball
+	badminton
+	swimming
+
+Membership(optional)
+	All sports facilities included in the membership rate, except Tennis can be availed. In order to play Tennis at the Regent Club, a nominal fee will be applicable.
+	*DISCOUNTS
+10% discount on bookings at MLR Convention Centres – Whitefield and J.P. Nagar, Bangalore
+	
+        
+	
+
+
+
+	
+	
