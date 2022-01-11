@@ -1,16 +1,18 @@
 
 body{
     background-color: #71dfe7;
+    padding-bottom: 0cm;
+    margin-bottom: 0cm;
 }
 
 
-.navbar-brand{
+.primary{
     background-color: #009dae;
 }
 .navbar-collapse{
     display: flex;
     justify-content: end;
-    background-color: #009dae;
+    
     
 }
 .sports-cards{
@@ -21,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    image-rendering: auto;
+
 }
 .one{
     display: flex;
@@ -31,4 +33,18 @@ body{
 }
 .three{
     display: flex;
+}
+.card-img{
+    height: 10rem;
+    /*width: 15rem;*/
+    width: 100%vw;
+
+}
+.jumbotron{
+    background-color: #ffe652;
+    margin-bottom: 0cm;
+}
+.card{
+    background-color: #c2fff9;
+    margin:1rem;
 }
