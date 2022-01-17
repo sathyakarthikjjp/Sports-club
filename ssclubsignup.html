@@ -33,17 +33,20 @@
               loop
               autoplay
             ></lottie-player>
-            <input type="text" placeholder="full name" />
-            <input type="text" placeholder="email address" />
-            <input type="text" placeholder="pick a username" />
-            <input type="password" id="password" placeholder="set a password" />
+            <input type="text" placeholder="full name" name= "fullname"/>
+            <input type="text" placeholder="email" name= "email" />
+            <input type="text" placeholder="address" name= "address" />
+            <input type="date" placeholder="DOB" name= "dob" />
+            <input type="number" placeholder="phone number" name= "phonenumber" maxlength="10"/>
+            <input type="text" placeholder="pick a username" name= "username" />
+            <input type="password" id="password" placeholder="set a password"  name= "password" />
             <i class="fas fa-eye" onclick="show()"></i>
             <br>
             <br>
           </form>
 
           <form class="login-form">
-            <button type="button" onclick="window.location.href='login.html'">
+            <button type="button" onclick="window.location.href='home.html'">
               SIGN UP
             </button>
           </form>
